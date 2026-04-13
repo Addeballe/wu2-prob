@@ -6,19 +6,25 @@ body {
 }
 
 .comic {
-    grid-template-areas: 'top', 'bottom';
+    display: grid;
+    grid-template-rows: 33vh 33vh 33vh;
     width: 50vw;
-    height: 100vh;
 }
 
 .topcontainer {
     display: grid;
+    gap: 10px;
+    grid-row: 1 / span2;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.2fr 1fr 1fr 1fr;
-    gap: 10px;
-    grid-area: top;
+    
 }
 
+.bottomcontainer {
+    display: grid;
+    gap: 10px;
+    grid-row: 3;
+}
 
 li {
     text-decoration: none;
