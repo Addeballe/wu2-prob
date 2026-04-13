@@ -47,19 +47,27 @@ li {
 .box2 {
     grid-row: 2;
     grid-column: 2 / span2;
+    background-position: 70%;
+    background-image: url(images/uran-wang-TVORvlpH2ZY-unsplash.jpg);
 }
 
 .box3 {
     grid-row: 3 / span2;
     grid-column: 2 / span2;
+    background-position: 100%;
+    background-image: url(images/alessio-soggetti-gdE-5Oui1Y0-unsplash.jpg);
 }
 
 .box4 {
     grid-column: 1;
+    background-position: 100%;
+    background-image: url(images/ngoc-nguyen-phuong-AyuLiicsy5M-unsplash.jpg);
 }
 
 .box5 {
     grid-column: 2;
+    background-position: 25%;
+    background-image: url(images/freddie-addery-9a77nIrsajw-unsplash.jpg);
 }
 
 .bottombox {
@@ -67,4 +75,14 @@ li {
     grid-template-rows: 2fr 1fr;
     gap: 10px;
     grid-column: 3;
+}
+
+.box6 {
+    background-position: 50%;
+    background-image: url(images/valentin-3RHwG4kgCek-unsplash.jpg);
+}
+
+.box7 {
+    background-position: 100%;
+    background-image: url(images/ian-hvdjdX1UGgM-unsplash.jpg);
 }
