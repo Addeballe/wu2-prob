@@ -8,7 +8,7 @@ body {
 .comic {
     display: grid;
     grid-template-rows: 30vh 20vh 40vh;
-    width: 50vw;
+    width: 40vw;
     gap: 10px;
 }
 
@@ -35,11 +35,13 @@ li {
     padding: 0;
     margin: 0;
     background-color: lightgray;
+    border: 1px solid black;
 }
 
 .box1 {
     grid-row: 1 / span2;
     grid-column: 1;
+    background-image: url(images/sylwia-bartyzel-Q_jNh-j8ybo-unsplash.jpg);
 }
 
 .box2 {
